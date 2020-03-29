@@ -169,3 +169,18 @@ Elf.prototype.attack = function() {
 const sam = new Elf('peter', 'stone')
 
 console.log(sam.attack())
+
+// Advance  loops
+
+const basket = ['apple', 'orange', 'grapes']
+    // 1.
+for (let i = 0; i < basket.length; i++) {
+    console.log(basket[i])
+}
+// 2.foreach
+
+basket.forEach(item => {
+    console.log(item)
+})
+
+// 3.
